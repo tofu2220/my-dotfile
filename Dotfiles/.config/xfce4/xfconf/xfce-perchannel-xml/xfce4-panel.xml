@@ -44,6 +44,8 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="fcitx5 tray window"/>
+        <value type="string" value="wi-fi network connection “r5a.28.06.08” active: r5a.28.06.08 (71%)"/>
         <value type="string" value="firewall-applet"/>
         <value type="string" value="wi-fi network connection “r5a.28.06.08” active: r5a.28.06.08 (77%)"/>
       </property>

@@ -1,6 +1,0 @@
-<?xml version="1.1" encoding="UTF-8"?>
-
-<channel name="xfce4-terminal" version="1.0">
-  <property name="misc-menubar-default" type="bool" value="false"/>
-  <property name="misc-default-geometry" type="string" value="94x24"/>
-</channel>
