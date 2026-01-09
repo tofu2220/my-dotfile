@@ -1,0 +1,16 @@
+{
+    // AI
+    "chat.disableAIFeatures": true,
+
+    // Window & UI
+    "window.titleBarStyle": "native",
+    "window.menuBarVisibility": "toggle",
+    "workbench.startupEditor": "none",
+
+    // Telemetry
+    "telemetry.telemetryLevel": "off",
+
+    // Python
+    "python.defaultInterpreterPath": "/bin/python",
+    "python.analysis.typeCheckingMode": "basic"
+}
