@@ -11,6 +11,5 @@
     "telemetry.telemetryLevel": "off",
 
     // Python
-    "python.defaultInterpreterPath": "/bin/python",
-    "python.analysis.typeCheckingMode": "basic"
+    "python.defaultInterpreterPath": "/bin/python"
 }
