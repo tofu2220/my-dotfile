@@ -50,20 +50,6 @@ def install_fcitx5() -> None:
         "fcitx5-configtool"
     ])
 
-    env_content = """GTK_IM_MODULE=fcitx
-QT_IM_MODULE=fcitx
-XMODIFIERS=@im=fcitx
-"""
-
-    tmp_file = "/tmp/fcitx_env"
-
-    with open(tmp_file, "w") as f:
-        f.write(env_content)
-
-    run(f"sudo cp {tmp_file} /etc/environment")
-    os.remove(tmp_file)
-
-
 # ==========================================================
 # AMD GPU Driver
 # ==========================================================
