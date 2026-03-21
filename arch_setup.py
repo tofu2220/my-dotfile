@@ -32,7 +32,7 @@ def install_yay(packages: list[str]) -> None:
     """Install packages using yay."""
     pkg = " ".join(packages)
 
-    run(f"yay -S --noconfirm {pkg}")
+    run(f"yay -S --noconfirm --removemake {pkg}")
 
 
 # ==========================================================
