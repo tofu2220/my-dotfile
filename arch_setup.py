@@ -155,9 +155,6 @@ def install_auto_cpufreq() -> None:
 
     install_yay(["auto-cpufreq"])
 
-    run("sudo systemctl mask power-profiles-daemon.service")
-    run("sudo systemctl enable auto-cpufreq.service")
-
 
 # ==========================================================
 # Main
