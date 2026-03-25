@@ -50,21 +50,6 @@ def install_fcitx5() -> None:
         "fcitx5-configtool"
     ])
 
-# ==========================================================
-# AMD GPU Driver
-# ==========================================================
-
-def install_amd_driver() -> None:
-    print("\n=== Installing AMD Vulkan Driver ===")
-
-    install_pacman([
-        "lib32-mesa",
-        "vulkan-radeon",
-        "lib32-vulkan-radeon",
-        "vulkan-icd-loader",
-        "lib32-vulkan-icd-loader"
-    ], needed=True)
-
 
 # ==========================================================
 # XFCE Panel Configuration
@@ -105,7 +90,6 @@ def install_basic_apps() -> None:
 
     install_pacman([
         "mpv",
-        "steam",
         "gnome-keyring",
     ])
 
@@ -155,8 +139,6 @@ def main() -> None:
 """)
 
     install_fcitx5()
-
-    install_amd_driver()
 
     install_basic_apps()
 
