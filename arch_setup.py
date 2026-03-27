@@ -105,10 +105,8 @@ def install_programming_tools() -> None:
         "clang",
         "go",
         "rustup",
+        "bun",
     ])
-
-    run("rustup install stable")
-    run("rustup default stable")
 
     install_yay([
         "vscodium-bin",
