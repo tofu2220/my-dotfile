@@ -144,7 +144,7 @@ def main() -> None:
 
     install_auto_cpufreq()
 
-    setup_xfce_panel()
+    # setup_xfce_panel()
 
     print("\nSetup completed successfully.")
     print("Reboot recommended.")
