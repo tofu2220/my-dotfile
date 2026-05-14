@@ -12,4 +12,10 @@
 
     // Python
     "python.defaultInterpreterPath": "/bin/python"
+
+    // For zed
+    "disable_ai": true,
+    "project_panel": {
+        "dock": "left",
+    },
 }
