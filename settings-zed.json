@@ -1,0 +1,11 @@
+{
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "disable_ai": true,
+  "title_bar": {
+    "show_sign_in": false,
+  },
+  "window_decorations": "server",
+}
