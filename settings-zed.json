@@ -8,4 +8,5 @@
     "show_sign_in": false,
   },
   "window_decorations": "server",
+  "restore_on_startup": "launchpad",
 }
